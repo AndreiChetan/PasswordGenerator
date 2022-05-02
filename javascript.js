@@ -36,10 +36,10 @@ function getPassword() {
     resultbtn3.textContent = password3;
     resultbtn4.textContent = password4;
 
-    resultbtn1.style.cssText += "color:#e7b250; font-family: Inter, sans serif; font-weight: bold "
-    resultbtn2.style.cssText += "color:#e7b250; font-family: Inter, sans serif; font-weight: bold "
-    resultbtn3.style.cssText += "color:#e7b250; font-family: Inter, sans serif; font-weight: bold "
-    resultbtn4.style.cssText += "color:#e7b250; font-family: Inter, sans serif; font-weight: bold "
+    resultbtn1.style.cssText += "color:#e7b250;font-size:16px; font-family: Inter, sans serif; font-weight: bold "
+    resultbtn2.style.cssText += "color:#e7b250;font-size:16px; font-family: Inter, sans serif; font-weight: bold "
+    resultbtn3.style.cssText += "color:#e7b250;font-size:16px; font-family: Inter, sans serif; font-weight: bold "
+    resultbtn4.style.cssText += "color:#e7b250;font-size:16px; font-family: Inter, sans serif; font-weight: bold "
 
 }
 
