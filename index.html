@@ -23,26 +23,35 @@
             <h1>Generate a</h1>
             <h1 class="h1color">Random Password</h1>
             <h4>Never use an insecure password ever again!</h2>
-                <button id="gen-btn" onclick="getPassword()"><i class="fa-solid fa-sun fa-lg fa-spin"></i> Generate password</button>
+                <button id="gen-btn" onclick="getPassword()"><i class="fa-solid fa-sun fa-lg fa-spin"></i> Generate
+                    password</button>
+
+                    <span>
+                        <label>Change length: </label>
+                        <input input="number"  id="lengthEl"  value="6">
+                        <input type="range" min="4" max="20" id="rangeEl">
+                        
+                    </span>
         </div>
+
         <hr>
 
 
         <h3>Click one to copy to clipboard</h3>
 
         <div class="grid">
-            <button class= "result-btn" id="result-btn1"><i id="i-dots" class="fa-solid fa-ellipsis fa-2xl"></i></button>
-            <button class= "result-btn" id="result-btn2"><i id="i-dots" class="fa-solid fa-ellipsis fa-2xl"></i></button>
-            <button class= "result-btn" id="result-btn3"><i id="i-dots" class="fa-solid fa-ellipsis fa-2xl"></i></button>
-            <button class= "result-btn" id="result-btn4"><i id="i-dots" class="fa-solid fa-ellipsis fa-2xl"></i></button>
+            <button class="result-btn" id="result-btn1"><i id="i-dots" class="fa-solid fa-ellipsis fa-2xl"></i></button>
+            <button class="result-btn" id="result-btn2"><i id="i-dots" class="fa-solid fa-ellipsis fa-2xl"></i></button>
+            <button class="result-btn" id="result-btn3"><i id="i-dots" class="fa-solid fa-ellipsis fa-2xl"></i></button>
+            <button class="result-btn" id="result-btn4"><i id="i-dots" class="fa-solid fa-ellipsis fa-2xl"></i></button>
         </div>
 
 
-    </div>
 
 
 
-    <script type="text/javascript" rel="javascript" src="javascript.js"></script>
+
+        <script type="text/javascript" rel="javascript" src="javascript.js"></script>
 </body>
 
 </html>
